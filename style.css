@@ -229,6 +229,10 @@ body {
   margin-bottom: 79px;
 }
 
+.about {
+  margin-bottom: 143px;
+}
+
 .about-title {
   font-weight: 400;
   font-size: 32px;
@@ -247,4 +251,39 @@ body {
 
 .about-item {
   display: flex;
+  width: 974px;
+  text-align: left;
+}
+
+.about-item + .about-item {
+  margin-top: 64px;
+}
+
+.about-item-right {
+  margin-left: 82px;
+}
+
+.about-item-text {
+  margin-right: 91px;
+}
+
+.about-item-text-first {
+  padding-top: 60px;
+}
+
+.about-item-text-right {
+  width: 500px;
+  padding-left: 101px;
+  padding-top: 35px;
+}
+
+.about-item-text-third {
+  padding-top: 25px;
+}
+
+.about-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #212b31;
+  align-items: center;
 }
