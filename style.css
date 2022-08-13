@@ -287,3 +287,39 @@ body {
   color: #212b31;
   align-items: center;
 }
+
+.delivery-preferences-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212b31;
+  margin-bottom: 21px;
+}
+
+.delivery-preferences-sub {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.delivery-preferences-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 27px;
+  margin-bottom: 33px;
+}
+
+.delivery-preferences-item {
+  display: flex;
+  max-width: 334px;
+}
+
+.delivery-preferences-item-text-title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #212b31;
+}
