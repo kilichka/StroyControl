@@ -288,6 +288,10 @@ body {
   align-items: center;
 }
 
+.delivery-preferences {
+  margin-bottom: 125px;
+}
+
 .delivery-preferences-title {
   font-weight: 400;
   font-size: 32px;
@@ -302,6 +306,10 @@ body {
   line-height: 32px;
   text-align: center;
   margin-bottom: 43px;
+}
+
+.list-container {
+  margin-bottom: 22px;
 }
 
 .delivery-preferences-list {
@@ -322,4 +330,105 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: #212b31;
+}
+
+.delivery-preferences-img {
+  margin-right: 16px;
+  margin-top: -100px;
+}
+
+.delivery-preferences-text-end {
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.delivery-preferences-text-end > span {
+  font-size: 20px;
+  line-height: 32px;
+  color: #212b31;
+}
+
+.reliability {
+  margin-bottom: 144px;
+}
+
+.reliability-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212b31;
+  margin-bottom: 17px;
+}
+
+.reliability-text {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.reliability-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.reliability-item {
+  max-width: 332px;
+}
+
+.reliability-item + .reliability-item {
+  margin-left: 33px;
+}
+
+.reliability-img {
+  display: block;
+  margin: 0 auto 19px;
+}
+
+.reliability-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #212b31;
+  margin-bottom: 11px;
+}
+
+.reliability-item-descr {
+  text-align: center;
+}
+
+.reliability-rectangle {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f8f9;
+  border-radius: 5px;
+}
+
+.reliability-rectangle-img {
+  margin: 45px 0 45px 40px;
+}
+
+.reliability-rectangle-text {
+  margin: 49px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212b31;
+}
+
+.reliability-rectangle-text > span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212b31;
+}
+
+.reliability-rectangle-btn {
+  margin: 40px 40px 40px 0px;
+  width: 149px;
+  height: 45px;
+  padding: 13px 25px;
 }
